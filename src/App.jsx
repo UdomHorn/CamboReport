@@ -1,5 +1,5 @@
 import React from 'react'
-import Nav from './section/nav'
+import Nav from './section/Nav'
 import Home from './section/Home'
 import Footer from './section/Footer'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
