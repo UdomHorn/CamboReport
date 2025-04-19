@@ -13,15 +13,15 @@ const Nav = () => {
           </div>
           <ul className='m-4 max-lg:hidden'>
             <li className='flex gap-2 items-center'>
-              <NavLink to="/video" className='hover:text-orange-500  duration-200' >វីដេអូ</NavLink> /
-              <NavLink to="/" className='hover:text-orange-500  duration-200' > ថេប្លេត-កុំព្យូទ័រ</NavLink> /
-              <NavLink to="/" className='hover:text-orange-500  duration-200' > ភាពយន្ត</NavLink> /
-              <NavLink to="/" className='hover:text-orange-500  duration-200' > ទូរសព្ទ</NavLink> /
-              <NavLink to="/" className='hover:text-orange-500  duration-200' > ចំណេះដឹងទូទៅ</NavLink> /
-              <NavLink to="/" className='hover:text-orange-500  duration-200' > យានយន្ត</NavLink> /
-              <NavLink to="/" className='hover:text-orange-500  duration-200' > វិទ្យាសាស្រ្ត</NavLink> /
-              <NavLink to="/" className='hover:text-orange-500  duration-200' > កម្មវិធី-ហ្គេម</NavLink> /
-              <NavLink to="/" className='hover:text-orange-500  duration-200' > ឧប្បករណ៍អេឡិចត្រូនិក</NavLink> /
+              <NavLink to="/videos" className='hover:text-orange-500  duration-200' >វីដេអូ</NavLink> /
+              <NavLink to="/tablets" className='hover:text-orange-500  duration-200' > ថេប្លេត-កុំព្យូទ័រ</NavLink> /
+              <NavLink to="/movies" className='hover:text-orange-500  duration-200' > ភាពយន្ត</NavLink> /
+              <NavLink to="/telephones" className='hover:text-orange-500  duration-200' > ទូរសព្ទ</NavLink> /
+              <NavLink to="/general" className='hover:text-orange-500  duration-200' > ចំណេះដឹងទូទៅ</NavLink> /
+              <NavLink to="/vehicles" className='hover:text-orange-500  duration-200' > យានយន្ត</NavLink> /
+              <NavLink to="/sciences" className='hover:text-orange-500  duration-200' > វិទ្យាសាស្រ្ត</NavLink> /
+              <NavLink to="/softwaregames" className='hover:text-orange-500  duration-200' > កម្មវិធី-ហ្គេម</NavLink> /
+              <NavLink to="/electronic" className='hover:text-orange-500  duration-200' > ឧប្បករណ៍អេឡិចត្រូនិក</NavLink> /
             </li>
           </ul>
           <div className='flex items-center gap-2'>
