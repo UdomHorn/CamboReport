@@ -34,7 +34,7 @@ const Nav = () => {
         </div>
       </div>
 
-      <div className ={`absolute top-[50px] right-0 w-[70%] h-svh bg-white font-koulen text-lg lg:hidden duration-500 p-8 ${menuOpen ? 'opacity-100' : 'opacity-0'}  `}>
+      <div className ={`absolute top-[54px] right-0 w-[70%] h-svh bg-white font-koulen text-lg lg:hidden duration-500 p-8 ${menuOpen ? 'opacity-100' : 'opacity-0'}  `}>
         <ul className=' '>
           <li className='mb-2'><NavLink to="/" className='hover:text-orange-500  duration-200' >ទំព័រដើម</NavLink></li>
           <li className='mb-2'><NavLink to="/videos" className='hover:text-orange-500  duration-200' >វីដេអូ</NavLink> </li>

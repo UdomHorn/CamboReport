@@ -9,23 +9,25 @@ function App() {
   return (
     <div className=' bg-primary mt-[80px]'>
 
-      <Nav />
+     <Router>
+     <Nav />
 
-      <Routes >
-        <Route path="/" element={<Home />} />
-        <Route path="/videos" element={<Video />} />
-        <Route path="/tablets" element={<Tablet />} />
-        <Route path="/movies" element={<Movie />} />
-        <Route path="/telephones" element={<Telephone />} />
-        <Route path="/general" element={<Knowledge />} />
-        <Route path="/vehicles" element={<Vehicle />} />
-        <Route path="/sciences" element={<Science />} />
-        <Route path="/softwaregames" element={<Software />} />
-        <Route path="/electronic" element={<Electronic />} />
-      </Routes>
+<Routes >
+  <Route path="/" element={<Home />} />
+  <Route path="/videos" element={<Video />} />
+  <Route path="/tablets" element={<Tablet />} />
+  <Route path="/movies" element={<Movie />} />
+  <Route path="/telephones" element={<Telephone />} />
+  <Route path="/general" element={<Knowledge />} />
+  <Route path="/vehicles" element={<Vehicle />} />
+  <Route path="/sciences" element={<Science />} />
+  <Route path="/softwaregames" element={<Software />} />
+  <Route path="/electronic" element={<Electronic />} />
+</Routes>
 
-      <Footer />
+<Footer />
 
+     </Router>
     </div>
   )
 }
