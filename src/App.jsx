@@ -9,7 +9,7 @@ function App() {
   return (
     <div className=' bg-primary mt-[80px]'>
 
-     <Router>
+    
      <Nav />
 
 <Routes >
@@ -27,7 +27,7 @@ function App() {
 
 <Footer />
 
-     </Router>
+    
     </div>
   )
 }
