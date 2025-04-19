@@ -5,7 +5,7 @@ import img3 from '../assets/home/ecFcQYXBbEX8IGrOcBKHpqAeE5wHYZmHAISOtn7b.jpg'
 import img4 from '../assets/home/Qv27EheiHTiyHBsGol3crNu6WPg0qu6vjsamIGUN.jpg'
 const Home = () => {
   return (
-    <div>
+    <div className=''>
       <div className='w-[85%] xl:w-[90%] max-xl:w-[94%] h-[570px]flex  m-auto text-2xl font-koulen text-white max-lg:text-xl cursor-pointer'>
         <div className='relative'>
           <img src={img1} alt="" className='w-full h-full rounded-xl' />

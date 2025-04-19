@@ -1,7 +1,8 @@
-import React from 'react'
+import React, { useState } from 'react'
 import logo from '../assets/logo.png'
 import { NavLink } from 'react-router-dom'
 const Nav = () => {
+  const [menuOpen, IsmenuOpen] = useState(false)
   return (
     <nav className='fixed top-0 left-0 w-full z-10 bg-white  '>
       <div className='bg-white  flex justify-center items-center font-koulen text-lg  border-b-2 border-orange-500  '>
@@ -25,14 +26,15 @@ const Nav = () => {
           </ul>
           <div className='flex items-center gap-2'>
             <div className=' w-[44px] h-[44px] rounded-full border-2 border-solid border-gray-200 max-sm:hidden'></div>
-            <div className='lg:hidden h-[40px] w-[52px] rounded-md  border-2 border-solid border-gray-200'> </div>
+            <div className='lg:hidden h-[40px] w-[52px] rounded-md  border-2 border-solid border-gray-200 ' onClick={()=>IsmenuOpen(!menuOpen)}> </div>
 
 
           </div>
         </div>
       </div>
-      <div className='bg-white font-koulen text-lg lg:hidden p-8'>
-        <ul className=' right-10 '>
+
+      <div className ={`absolute top-[56px] right-0 w-[300px] bg-white font-koulen text-lg lg:hidden duration-500 p-8 ${menuOpen ? 'opacity-100' : 'opacity-0'}  `}>
+        <ul className=' '>
           <li className='mb-2'><NavLink to="/" className='hover:text-orange-500  duration-200' >ទំព័រដើម</NavLink></li>
           <li className='mb-2'><NavLink to="/videos" className='hover:text-orange-500  duration-200' >វីដេអូ</NavLink> </li>
           <li className='mb-2'><NavLink to="/tablets" className='hover:text-orange-500  duration-200' > ថេប្លេត-កុំព្យូទ័រ</NavLink></li>

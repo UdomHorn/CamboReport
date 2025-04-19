@@ -7,7 +7,7 @@ import { Video, Tablet, Knowledge, Movie, Science, Software, Telephone, Vehicle,
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 function App() {
   return (
-    <div className=' bg-primary pt-[80px]'>
+    <div className=' bg-primary mt-[80px]'>
 
       <Nav />
 
