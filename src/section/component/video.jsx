@@ -176,7 +176,7 @@ const video = () => {
             
       </div>
 
-      <div className='w-full flex justify-center items-center py-10'>
+      <div className='w-full flex justify-center items-center my-10 pb-10'>
         <button className='font-koulen text-xl text-black bg-primary px-8 py-4 rounded-full '>មើលបន្ថែមទៀត</button>
       </div> 
       </div>
