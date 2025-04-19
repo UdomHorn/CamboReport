@@ -11,7 +11,7 @@ function App() {
 
       <Nav />
 
-          <Routes>
+          <Routes >
             <Route path="/" element={<Home />} />
             <Route path="/videos" element={<Video />} />
             <Route path="/tablets" element={<Tablet />} />

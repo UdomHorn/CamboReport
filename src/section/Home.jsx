@@ -212,8 +212,10 @@ const Home = () => {
 
       <div className='w-full bg-white flex justify-center items-center pb-10'>
         <div className='w-[75%] xl:w-[80%] max-xl:w-[94%] flex'>
+
           <div className='grid grid-cols-3 max-xl:grid-cols-2 max-sm:grid-cols-1 '>
 
+          <div className='border-b-2 border-red-500 mt-8 hidden max-sm:block'></div>
             <div className='mt-8'>
               <div className='flex  font-koulen text-black items-center text-2xl'>
                 <div className='w-1 h-8 bg-red-500 mr-2'></div>
@@ -248,9 +250,10 @@ const Home = () => {
               </div>
             </div>
 
+            <div className='border-b-2 border-sky-400 mt-8 hidden max-sm:block'></div>
             <div className='mt-8'>
               <div className='flex  font-koulen text-black items-center text-2xl'>
-                <div className='w-1 h-8 bg-secondary mr-2'></div>
+                <div className='w-1 h-8 bg-sky-400 mr-2'></div>
                 <div>អត្ថបទពេញនិយម</div>
               </div>
 
@@ -316,6 +319,7 @@ const Home = () => {
                   ជាផ្លូវការ ជាមួយ​ Awesome.. </div>
               </div>
             </div>
+
           </div>
         </div>
       </div>
