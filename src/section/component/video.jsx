@@ -1,12 +1,12 @@
 import React from 'react'
-import img1 from '../assets/home/WQjvPT415DPU8v099f1bkRcXC0JKXJ9n5l8Yt9yw.jpg'
-import img2 from '../assets/home/NVa5XgyYv8g2jrlFQtbN1DS6UmZMOctyvvkRLmaJ.jpg'
-import img3 from '../assets/home/ecFcQYXBbEX8IGrOcBKHpqAeE5wHYZmHAISOtn7b.jpg'
-import img4 from '../assets/home/Qv27EheiHTiyHBsGol3crNu6WPg0qu6vjsamIGUN.jpg'
+// import img1 from '../assets/home/WQjvPT415DPU8v099f1bkRcXC0JKXJ9n5l8Yt9yw.jpg'
+import img2 from '../../assets/home/NVa5XgyYv8g2jrlFQtbN1DS6UmZMOctyvvkRLmaJ.jpg'
+// import img3 from '../assets/home/ecFcQYXBbEX8IGrOcBKHpqAeE5wHYZmHAISOtn7b.jpg'
+// import img4 from '../assets/home/Qv27EheiHTiyHBsGol3crNu6WPg0qu6vjsamIGUN.jpg'
 
 const video = () => {
   return (
-    <div id='video'>
+    <div>
       
             <div className='w-full flex justify-center items-center my-10'>
             <button className='font-koulen text-xl text-black bg-white px-8 py-4 rounded-full '>មើលបន្ថែមទៀត</button>

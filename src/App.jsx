@@ -2,14 +2,20 @@ import React from 'react'
 import Nav from './section/Nav'
 import Home from './section/Home'
 import Footer from './section/Footer'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import Video from './section/component/video'
+import { BrowserRouter as Router, Routes, Route , NavLink} from 'react-router-dom'
 function App() {
   return (
-    <div className='bg-primary mt-[80px]'>
+    <div className=' bg-primary pt-[80px]'>
 
-      <section><Nav/></section>
-      <section><Home/></section>
-      <section><Footer/></section>
+      <Nav />
+      
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/video" element={<Video />} />
+          </Routes>
+
+      <Footer />
 
     </div>
   )
