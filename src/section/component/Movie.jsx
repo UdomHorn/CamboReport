@@ -1,5 +1,10 @@
 import React from 'react'
 import img2 from '../../assets/home/NVa5XgyYv8g2jrlFQtbN1DS6UmZMOctyvvkRLmaJ.jpg'
+import img3 from '../../assets/home/ecFcQYXBbEX8IGrOcBKHpqAeE5wHYZmHAISOtn7b.jpg'
+import img4 from '../../assets/home/Qv27EheiHTiyHBsGol3crNu6WPg0qu6vjsamIGUN.jpg'
+import img5 from '../../assets/home/Kz4PYNAnuKkVLcu4wNPnsY81NRyRzGrjZ7HKSXkU.jpg'
+import img6 from '../../assets/home/mTJhYfqayNIAcMAqBNltg47tnxhTmego1txLmIdj.jpg'
+import img7 from '../../assets/home/XzoaqSsp9bOSg37DbSNwRtVNjPBYce4V3fqbQfuf.jpg'
 const Movie = () => {
   return (
     <div className='bg-white'>
@@ -140,7 +145,7 @@ const Movie = () => {
                 <div className='font-koulen text-xl text-black flex gap-4 pt-6 w-full'>
 
                   <div className=' w-[30%]'>
-                    <img src={img2} alt="" className=' w-[110px] h-[110px] rounded-md object-cover' />
+                    <img src={img3} alt="" className=' w-[110px] h-[110px] rounded-md object-cover' />
                   </div>
                   <div className='w-[70%] '>
                     <p className='text-sm text-sky-500'>ទូរសព្ទ</p> Galaxy A26 5G ប្រកាសចេញជាផ្លូវការ ជាមួយ​ Awesome.. </div>
@@ -149,7 +154,7 @@ const Movie = () => {
 
                 <div className='font-koulen text-xl text-black flex gap-4 pt-6 w-full'>
                   <div className=' w-[30%]'>
-                    <img src={img2} alt="" className=' w-[110px] h-[110px] rounded-md object-cover' />
+                    <img src={img5} alt="" className=' w-[110px] h-[110px] rounded-md object-cover' />
                   </div>
                   <div className='w-[70%] '>
                     <p className='text-sm text-sky-500'>ទូរសព្ទ</p> Galaxy A26 5G ប្រកាសចេញជាផ្លូវការ ជាមួយ​ Awesome.. </div>
@@ -158,7 +163,7 @@ const Movie = () => {
 
                 <div className='font-koulen text-xl text-black flex gap-4 pt-6 w-full rounded-full'>
                   <div className=' w-[30%]'>
-                    <img src={img2} alt="" className=' w-[110px] h-[110px] rounded-md object-cover' />
+                    <img src={img6} alt="" className=' w-[110px] h-[110px] rounded-md object-cover' />
                   </div>
                   <div className='w-[70%] '>
                     <p className='text-sm text-sky-500'>ទូរសព្ទ</p> Galaxy A26 5G ប្រកាសចេញជាផ្លូវការ ជាមួយ​ Awesome.. </div>
@@ -177,7 +182,7 @@ const Movie = () => {
             </div>
 
             <div className='font-koulen text-xl text-black flex gap-4 pt-6 w-full'>
-              <div className='  bg-red-500'>
+              <div className='  '>
                 <img src={img2} alt="" className=' w-[110px] h-[110px] rounded-md object-cover' />
               </div>
               <div className=' '>
@@ -188,16 +193,17 @@ const Movie = () => {
             <div className='font-koulen text-xl text-black flex gap-4 pt-6 w-full'>
 
               <div className=' '>
-                <img src={img2} alt="" className=' w-[110px] h-[110px] rounded-md object-cover' />
+                <img src={img3} alt="" className=' w-[110px] h-[110px] rounded-md object-cover' />
               </div>
               <div className='w-[70%] '>
-                <p className='text-sm text-sky-500'>ទូរសព្ទ</p> Galaxy A26 5G ប្រកាសចេញជាផ្លូវការ ជាមួយ​ Awesome.. </div>
+                <p className='text-sm text-sky-500'>ទូរសព្ទ</p> រួមមានបំពាក់ដោយលេន Periscope 100x និងតម្លៃ
+                ចាប់ផ្ដើមពីខ្ទង់ $370 នៅក្រៅប្រទេស </div>
             </div>
             <div className='border-b-2 border-gray-200 mt-6 rounded-full'></div>
 
             <div className='font-koulen text-xl text-black flex gap-4 pt-6 w-full'>
               <div className=' '>
-                <img src={img2} alt="" className=' w-[110px] h-[110px] rounded-md object-cover' />
+                <img src={img5} alt="" className=' w-[110px] h-[110px] rounded-md object-cover' />
               </div>
               <div className='w-[70%] '>
                 <p className='text-sm text-sky-500'>ទូរសព្ទ</p> Galaxy A26 5G ប្រកាសចេញជាផ្លូវការ ជាមួយ​ Awesome.. </div>
@@ -206,7 +212,7 @@ const Movie = () => {
 
             <div className='font-koulen text-xl text-black flex gap-4 pt-6 w-full rounded-full'>
               <div className=' '>
-                <img src={img2} alt="" className=' w-[110px] h-[110px] rounded-md object-cover' />
+                <img src={img6} alt="" className=' w-[110px] h-[110px] rounded-md object-cover' />
               </div>
               <div className='w-[70%] '>
                 <p className='text-sm text-sky-500'>ទូរសព្ទ</p> Galaxy A26 5G ប្រកាសចេញជាផ្លូវការ ជាមួយ​ Awesome.. </div>
