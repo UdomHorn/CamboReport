@@ -5,6 +5,11 @@ import img4 from '../../assets/home/Qv27EheiHTiyHBsGol3crNu6WPg0qu6vjsamIGUN.jpg
 import img5 from '../../assets/home/Kz4PYNAnuKkVLcu4wNPnsY81NRyRzGrjZ7HKSXkU.jpg'
 import img6 from '../../assets/home/mTJhYfqayNIAcMAqBNltg47tnxhTmego1txLmIdj.jpg'
 import img7 from '../../assets/home/XzoaqSsp9bOSg37DbSNwRtVNjPBYce4V3fqbQfuf.jpg'
+import img8 from '../../assets/home/ofSe2jDqAi0v4x7kaPlkoDm1yrN73dZcyouEFDTA.jpg'
+import img9 from '../../assets/home/THZFu75WjblhafZOOmKzAZ0g1mHfshzzrSHNc3kv.jpg'
+import img10 from '../../assets/home/qFsxUdAxKe2ZeCV3d5s0O2hVgVdrhIvuIx5FvOwM.jpg'
+import img11 from '../../assets/home/svEvW7hGliMDeqSer3DtuGtKZWKczSPVke7soaTT.jpg'
+import img12 from '../../assets/home/I9ONJvv9Ye1pwRpeo1pwjwvZl65A4Rs1io1XteFY.jpg'
 const Movie = () => {
   return (
     <div className='bg-white'>
@@ -20,7 +25,7 @@ const Movie = () => {
                 <div className='grid grid-cols-2 max-md:grid-cols-1 gap-12  pt-4 font-koulen text-xl text-black '>
                   <div className='shadow-sm h-[570px] overflow-hidden rounded-xl hover:scale-[1.02] duration-200 cursor-pointer'>
                     <div className='w-full h-[380px] relative'>
-                      <img src={img2} alt="" className='w-full h-[360px] object-cover' />
+                      <img src={img7} alt="" className='w-full h-[360px] object-cover' />
                       <button className='py-1 px-4 bg-secondary text-lg max-lg:text-lg border-4 border-white font-koulen text-white absolute left-4 bottom-0 '>ឧបករណ៍អេឡិចត្រូនិច​</button>
                     </div>
                     <div className='flex font-koulen text-xl  p-2 pb-0'>
@@ -33,7 +38,7 @@ const Movie = () => {
 
                   <div className='shadow-sm h-[570px] overflow-hidden rounded-xl hover:scale-[1.02] duration-200 cursor-pointer'>
                     <div className='w-full h-[380px] relative'>
-                      <img src={img2} alt="" className='w-full h-[360px] object-cover' />
+                      <img src={img6} alt="" className='w-full h-[360px] object-cover' />
                       <button className='py-1 px-4 bg-secondary text-lg max-lg:text-lg border-4 border-white font-koulen text-white absolute left-4 bottom-0 '>ឧបករណ៍អេឡិចត្រូនិច​</button>
                     </div>
                     <div className='flex font-koulen text-xl  p-2 pb-0'>
@@ -46,7 +51,7 @@ const Movie = () => {
 
                   <div className='shadow-sm h-[570px] overflow-hidden rounded-xl hover:scale-[1.02] duration-200 cursor-pointer'>
                     <div className='w-full h-[380px] relative'>
-                      <img src={img2} alt="" className='w-full h-[360px] object-cover' />
+                      <img src={img5} alt="" className='w-full h-[360px] object-cover' />
                       <button className='py-1 px-4 bg-secondary text-lg max-lg:text-lg border-4 border-white font-koulen text-white absolute left-4 bottom-0 '>ឧបករណ៍អេឡិចត្រូនិច​</button>
                     </div>
                     <div className='flex font-koulen text-xl  p-2 pb-0'>
@@ -59,7 +64,7 @@ const Movie = () => {
 
                   <div className='shadow-sm h-[570px] overflow-hidden rounded-xl hover:scale-[1.02] duration-200 cursor-pointer'>
                     <div className='w-full h-[380px] relative'>
-                      <img src={img2} alt="" className='w-full h-[360px] object-cover' />
+                      <img src={img4} alt="" className='w-full h-[360px] object-cover' />
                       <button className='py-1 px-4 bg-secondary text-lg max-lg:text-lg border-4 border-white font-koulen text-white absolute left-4 bottom-0 '>ឧបករណ៍អេឡិចត្រូនិច​</button>
                     </div>
                     <div className='flex font-koulen text-xl  p-2 pb-0'>
@@ -72,7 +77,7 @@ const Movie = () => {
 
                   <div className='shadow-sm h-[570px] overflow-hidden rounded-xl hover:scale-[1.02] duration-200 cursor-pointer'>
                     <div className='w-full h-[380px] relative'>
-                      <img src={img2} alt="" className='w-full h-[360px] object-cover' />
+                      <img src={img3} alt="" className='w-full h-[360px] object-cover' />
                       <button className='py-1 px-4 bg-secondary text-lg max-lg:text-lg border-4 border-white font-koulen text-white absolute left-4 bottom-0 '>ឧបករណ៍អេឡិចត្រូនិច​</button>
                     </div>
                     <div className='flex font-koulen text-xl  p-2 pb-0'>
@@ -85,7 +90,7 @@ const Movie = () => {
 
                   <div className='shadow-sm h-[570px] overflow-hidden rounded-xl hover:scale-[1.02] duration-200 cursor-pointer'>
                     <div className='w-full h-[380px] relative'>
-                      <img src={img2} alt="" className='w-full h-[360px] object-cover' />
+                      <img src={img8} alt="" className='w-full h-[360px] object-cover' />
                       <button className='py-1 px-4 bg-secondary text-lg max-lg:text-lg border-4 border-white font-koulen text-white absolute left-4 bottom-0 '>ឧបករណ៍អេឡិចត្រូនិច​</button>
                     </div>
                     <div className='flex font-koulen text-xl  p-2 pb-0'>
@@ -98,7 +103,7 @@ const Movie = () => {
 
                   <div className='shadow-sm h-[570px] overflow-hidden rounded-xl hover:scale-[1.02] duration-200 cursor-pointer'>
                     <div className='w-full h-[380px] relative'>
-                      <img src={img2} alt="" className='w-full h-[360px] object-cover' />
+                      <img src={img9} alt="" className='w-full h-[360px] object-cover' />
                       <button className='py-1 px-4 bg-secondary text-lg max-lg:text-lg border-4 border-white font-koulen text-white absolute left-4 bottom-0 '>ឧបករណ៍អេឡិចត្រូនិច​</button>
                     </div>
                     <div className='flex font-koulen text-xl  p-2 pb-0'>
@@ -111,7 +116,7 @@ const Movie = () => {
 
                   <div className='shadow-sm h-[570px] overflow-hidden rounded-xl hover:scale-[1.02] duration-200 cursor-pointer'>
                     <div className='w-full h-[380px] relative'>
-                      <img src={img2} alt="" className='w-full h-[360px] object-cover' />
+                      <img src={img10} alt="" className='w-full h-[360px] object-cover' />
                       <button className='py-1 px-4 bg-secondary text-lg max-lg:text-lg border-4 border-white font-koulen text-white absolute left-4 bottom-0 '>ឧបករណ៍អេឡិចត្រូនិច​</button>
                     </div>
                     <div className='flex font-koulen text-xl  p-2 pb-0'>
