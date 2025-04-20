@@ -6,7 +6,7 @@ import img4 from '../../assets/home/Qv27EheiHTiyHBsGol3crNu6WPg0qu6vjsamIGUN.jpg
 import img5 from '../../assets/home/Kz4PYNAnuKkVLcu4wNPnsY81NRyRzGrjZ7HKSXkU.jpg'
 import img6 from '../../assets/home/mTJhYfqayNIAcMAqBNltg47tnxhTmego1txLmIdj.jpg'
 import img7 from '../../assets/home/XzoaqSsp9bOSg37DbSNwRtVNjPBYce4V3fqbQfuf.jpg'
-
+import { NavLink } from 'react-router-dom'
 const video = () => {
   return (
     <div className='bg-white'>
@@ -35,9 +35,9 @@ const video = () => {
                       <img src={img3} alt="" className='w-full h-full object-cover' />
                     </div>
                     <div className='m-4' >
-                    Apple M3 Ultra មកដល់ហើយ បំពាក់នៅលើ
-Mac Studio ជាមួយជម្រើស M4 Max មួយ
-ទៀត
+                      Apple M3 Ultra មកដល់ហើយ បំពាក់នៅលើ
+                      Mac Studio ជាមួយជម្រើស M4 Max មួយ
+                      ទៀត
                     </div>
                   </div>
                   <div className='  bg-primary   rounded-xl overflow-hidden'>
@@ -45,9 +45,9 @@ Mac Studio ជាមួយជម្រើស M4 Max មួយ
                       <img src={img4} alt="" className='w-full h-full object-cover' />
                     </div>
                     <div className='m-4' >
-                    ASUS ROG បញ្ចេញផលិតផលបំពាក់
-បច្ចេកវិទ្យាទំនើបចុងក្រោយ បង្កើនបទពិសោធន៍
-លេងហ្គេម នៅ CES 2025
+                      ASUS ROG បញ្ចេញផលិតផលបំពាក់
+                      បច្ចេកវិទ្យាទំនើបចុងក្រោយ បង្កើនបទពិសោធន៍
+                      លេងហ្គេម នៅ CES 2025
                     </div>
                   </div>
                   <div className='  bg-primary   rounded-xl overflow-hidden'>
@@ -55,9 +55,9 @@ Mac Studio ជាមួយជម្រើស M4 Max មួយ
                       <img src={img5} alt="" className='w-full h-full object-cover' />
                     </div>
                     <div className='m-4' >
-                    ASUS Cambodia ប្រកាសចេញ Laptop ថ្មីៗ
-ជាមួយ AI បំពាក់ដោយ Intel® Core™ Ultra
-Processors (Series 2) ស៊េរីឆ្នាំ 2025 ចុ...
+                      ASUS Cambodia ប្រកាសចេញ Laptop ថ្មីៗ
+                      ជាមួយ AI បំពាក់ដោយ Intel® Core™ Ultra
+                      Processors (Series 2) ស៊េរីឆ្នាំ 2025 ចុ...
                     </div>
                   </div>
                   <div className='  bg-primary   rounded-xl overflow-hidden'>
@@ -96,7 +96,7 @@ Processors (Series 2) ស៊េរីឆ្នាំ 2025 ចុ...
                     <img src={img2} alt="" className=' w-[110px] h-[110px] rounded-md object-cover' />
                   </div>
                   <div className='w-[70%] '>
-                    <p className='text-sm text-sky-500'>ទូរសព្ទ</p> Galaxy A26 5G ប្រកាសចេញជាផ្លូវការ ជាមួយ​ Awesome.. </div>
+                    <NavLink to="/telephones"><p className='text-sm text-sky-500'>ទូរសព្ទ</p></NavLink> Galaxy A26 5G ប្រកាសចេញជាផ្លូវការ ជាមួយ​ Awesome.. </div>
                 </div>
                 <div className='border-b-2 border-gray-200 mt-6 rounded-full'></div>
 
@@ -106,7 +106,7 @@ Processors (Series 2) ស៊េរីឆ្នាំ 2025 ចុ...
                     <img src={img3} alt="" className=' w-[110px] h-[110px] rounded-md object-cover' />
                   </div>
                   <div className='w-[70%] '>
-                    <p className='text-sm text-sky-500'>ទូរសព្ទ</p> Galaxy A26 5G ប្រកាសចេញជាផ្លូវការ ជាមួយ​ Awesome.. </div>
+                    <NavLink to="/telephones"><p className='text-sm text-sky-500'>ទូរសព្ទ</p></NavLink> Galaxy A26 5G ប្រកាសចេញជាផ្លូវការ ជាមួយ​ Awesome.. </div>
                 </div>
                 <div className='border-b-2 border-gray-200 mt-6 rounded-full'></div>
 
@@ -115,7 +115,7 @@ Processors (Series 2) ស៊េរីឆ្នាំ 2025 ចុ...
                     <img src={img5} alt="" className=' w-[110px] h-[110px] rounded-md object-cover' />
                   </div>
                   <div className='w-[70%] '>
-                    <p className='text-sm text-sky-500'>ទូរសព្ទ</p> Galaxy A26 5G ប្រកាសចេញជាផ្លូវការ ជាមួយ​ Awesome.. </div>
+                    <NavLink to="/general"><p className='text-sm text-sky-500'>ចំណេះដឹងទូទៅ​</p></NavLink> Galaxy A26 5G ប្រកាសចេញជាផ្លូវការ ជាមួយ​ Awesome.. </div>
                 </div>
                 <div className='border-b-2 border-gray-200 mt-6'></div>
 
@@ -124,7 +124,7 @@ Processors (Series 2) ស៊េរីឆ្នាំ 2025 ចុ...
                     <img src={img6} alt="" className=' w-[110px] h-[110px] rounded-md object-cover' />
                   </div>
                   <div className='w-[70%] '>
-                    <p className='text-sm text-sky-500'>ទូរសព្ទ</p> Galaxy A26 5G ប្រកាសចេញជាផ្លូវការ ជាមួយ​ Awesome.. </div>
+                    <NavLink to="/general"><p className='text-sm text-sky-500'>ចំណេះដឹងទូទៅ​</p></NavLink> Galaxy A26 5G ប្រកាសចេញជាផ្លូវការ ជាមួយ​ Awesome.. </div>
                 </div>
               </div>
 
@@ -144,7 +144,7 @@ Processors (Series 2) ស៊េរីឆ្នាំ 2025 ចុ...
                 <img src={img2} alt="" className=' w-[110px] h-[110px] rounded-md object-cover' />
               </div>
               <div className=' '>
-                <p className='text-sm text-sky-500'>ទូរសព្ទ</p> Galaxy A26 5G ប្រកាសចេញជាផ្លូវការ ជាមួយ​ Awesome.. </div>
+                <NavLink to="/telephones"><p className='text-sm text-sky-500'>ទូរសព្ទ</p></NavLink> Galaxy A26 5G ប្រកាសចេញជាផ្លូវការ ជាមួយ​ Awesome.. </div>
             </div>
             <div className='border-b-2 border-gray-200 mt-6 rounded-full'></div>
 
@@ -154,7 +154,7 @@ Processors (Series 2) ស៊េរីឆ្នាំ 2025 ចុ...
                 <img src={img3} alt="" className=' w-[110px] h-[110px] rounded-md object-cover' />
               </div>
               <div className='w-[70%] '>
-                <p className='text-sm text-sky-500'>ទូរសព្ទ</p> រួមមានបំពាក់ដោយលេន Periscope 100x និងតម្លៃ
+                <NavLink to="/telephones"><p className='text-sm text-sky-500'>ទូរសព្ទ</p></NavLink> រួមមានបំពាក់ដោយលេន Periscope 100x និងតម្លៃ
                 ចាប់ផ្ដើមពីខ្ទង់ $370 នៅក្រៅប្រទេស </div>
             </div>
             <div className='border-b-2 border-gray-200 mt-6 rounded-full'></div>
@@ -164,7 +164,7 @@ Processors (Series 2) ស៊េរីឆ្នាំ 2025 ចុ...
                 <img src={img5} alt="" className=' w-[110px] h-[110px] rounded-md object-cover' />
               </div>
               <div className='w-[70%] '>
-                <p className='text-sm text-sky-500'>ទូរសព្ទ</p> Galaxy A26 5G ប្រកាសចេញជាផ្លូវការ ជាមួយ​ Awesome.. </div>
+                <NavLink to="/general"><p className='text-sm text-sky-500'>ចំណេះដឹងទូទៅ​</p></NavLink> Galaxy A26 5G ប្រកាសចេញជាផ្លូវការ ជាមួយ​ Awesome.. </div>
             </div>
             <div className='border-b-2 border-gray-200 mt-6'></div>
 
@@ -173,7 +173,7 @@ Processors (Series 2) ស៊េរីឆ្នាំ 2025 ចុ...
                 <img src={img6} alt="" className=' w-[110px] h-[110px] rounded-md object-cover' />
               </div>
               <div className='w-[70%] '>
-                <p className='text-sm text-sky-500'>ទូរសព្ទ</p> Galaxy A26 5G ប្រកាសចេញជាផ្លូវការ ជាមួយ​ Awesome.. </div>
+                <NavLink to="/general"><p className='text-sm text-sky-500'>ចំណេះដឹងទូទៅ​</p></NavLink> Galaxy A26 5G ប្រកាសចេញជាផ្លូវការ ជាមួយ​ Awesome.. </div>
             </div>
           </div>
 

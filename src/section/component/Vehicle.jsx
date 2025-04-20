@@ -10,6 +10,7 @@ import img9 from '../../assets/home/THZFu75WjblhafZOOmKzAZ0g1mHfshzzrSHNc3kv.jpg
 import img10 from '../../assets/home/qFsxUdAxKe2ZeCV3d5s0O2hVgVdrhIvuIx5FvOwM.jpg'
 import img11 from '../../assets/home/svEvW7hGliMDeqSer3DtuGtKZWKczSPVke7soaTT.jpg'
 import img12 from '../../assets/home/I9ONJvv9Ye1pwRpeo1pwjwvZl65A4Rs1io1XteFY.jpg'
+import { NavLink } from 'react-router-dom'
 const Vehicle = () => {
   return (
     <div className='bg-white'>
@@ -26,7 +27,7 @@ const Vehicle = () => {
                   <div className='shadow-sm h-[570px] overflow-hidden rounded-xl hover:scale-[1.02] duration-200 cursor-pointer'>
                     <div className='w-full h-[380px] relative'>
                       <img src={img7} alt="" className='w-full h-[360px] object-cover' />
-                      <button className='py-1 px-4 bg-secondary text-lg max-lg:text-lg border-4 border-white font-koulen text-white absolute left-4 bottom-0 '>ឧបករណ៍អេឡិចត្រូនិច​</button>
+                      <button className='py-1 px-4 bg-secondary text-lg max-lg:text-lg border-4 border-white font-koulen text-white absolute left-4 bottom-0 '>យានយន្ត​</button>
                     </div>
                     <div className='flex font-koulen text-xl  p-2 pb-0'>
                       <div>នាពេលអនាគត Apple Watch អាចបំពាក់ដោយកាមេរ៉ា ដើម្បីក្លាយជានាឡិកាឆ្លាតវៃដើរដោយ AI </div>
@@ -39,7 +40,7 @@ const Vehicle = () => {
                   <div className='shadow-sm h-[570px] overflow-hidden rounded-xl hover:scale-[1.02] duration-200 cursor-pointer'>
                     <div className='w-full h-[380px] relative'>
                       <img src={img6} alt="" className='w-full h-[360px] object-cover' />
-                      <button className='py-1 px-4 bg-secondary text-lg max-lg:text-lg border-4 border-white font-koulen text-white absolute left-4 bottom-0 '>ឧបករណ៍អេឡិចត្រូនិច​</button>
+                      <button className='py-1 px-4 bg-secondary text-lg max-lg:text-lg border-4 border-white font-koulen text-white absolute left-4 bottom-0 '>យានយន្ត​</button>
                     </div>
                     <div className='flex font-koulen text-xl  p-2 pb-0'>
                       <div>នាពេលអនាគត Apple Watch អាចបំពាក់ដោយកាមេរ៉ា ដើម្បីក្លាយជានាឡិកាឆ្លាតវៃដើរដោយ AI </div>
@@ -52,7 +53,7 @@ const Vehicle = () => {
                   <div className='shadow-sm h-[570px] overflow-hidden rounded-xl hover:scale-[1.02] duration-200 cursor-pointer'>
                     <div className='w-full h-[380px] relative'>
                       <img src={img12} alt="" className='w-full h-[360px] object-cover' />
-                      <button className='py-1 px-4 bg-secondary text-lg max-lg:text-lg border-4 border-white font-koulen text-white absolute left-4 bottom-0 '>ឧបករណ៍អេឡិចត្រូនិច​</button>
+                      <button className='py-1 px-4 bg-secondary text-lg max-lg:text-lg border-4 border-white font-koulen text-white absolute left-4 bottom-0 '>យានយន្ត​</button>
                     </div>
                     <div className='flex font-koulen text-xl  p-2 pb-0'>
                       <div>នាពេលអនាគត Apple Watch អាចបំពាក់ដោយកាមេរ៉ា ដើម្បីក្លាយជានាឡិកាឆ្លាតវៃដើរដោយ AI </div>
@@ -65,7 +66,7 @@ const Vehicle = () => {
                   <div className='shadow-sm h-[570px] overflow-hidden rounded-xl hover:scale-[1.02] duration-200 cursor-pointer'>
                     <div className='w-full h-[380px] relative'>
                       <img src={img11} alt="" className='w-full h-[360px] object-cover' />
-                      <button className='py-1 px-4 bg-secondary text-lg max-lg:text-lg border-4 border-white font-koulen text-white absolute left-4 bottom-0 '>ឧបករណ៍អេឡិចត្រូនិច​</button>
+                      <button className='py-1 px-4 bg-secondary text-lg max-lg:text-lg border-4 border-white font-koulen text-white absolute left-4 bottom-0 '>យានយន្ត​</button>
                     </div>
                     <div className='flex font-koulen text-xl  p-2 pb-0'>
                       <div>នាពេលអនាគត Apple Watch អាចបំពាក់ដោយកាមេរ៉ា ដើម្បីក្លាយជានាឡិកាឆ្លាតវៃដើរដោយ AI </div>
@@ -78,7 +79,7 @@ const Vehicle = () => {
                   <div className='shadow-sm h-[570px] overflow-hidden rounded-xl hover:scale-[1.02] duration-200 cursor-pointer'>
                     <div className='w-full h-[380px] relative'>
                       <img src={img11} alt="" className='w-full h-[360px] object-cover' />
-                      <button className='py-1 px-4 bg-secondary text-lg max-lg:text-lg border-4 border-white font-koulen text-white absolute left-4 bottom-0 '>ឧបករណ៍អេឡិចត្រូនិច​</button>
+                      <button className='py-1 px-4 bg-secondary text-lg max-lg:text-lg border-4 border-white font-koulen text-white absolute left-4 bottom-0 '>យានយន្ត​</button>
                     </div>
                     <div className='flex font-koulen text-xl  p-2 pb-0'>
                       <div>នាពេលអនាគត Apple Watch អាចបំពាក់ដោយកាមេរ៉ា ដើម្បីក្លាយជានាឡិកាឆ្លាតវៃដើរដោយ AI </div>
@@ -91,7 +92,7 @@ const Vehicle = () => {
                   <div className='shadow-sm h-[570px] overflow-hidden rounded-xl hover:scale-[1.02] duration-200 cursor-pointer'>
                     <div className='w-full h-[380px] relative'>
                       <img src={img5} alt="" className='w-full h-[360px] object-cover' />
-                      <button className='py-1 px-4 bg-secondary text-lg max-lg:text-lg border-4 border-white font-koulen text-white absolute left-4 bottom-0 '>ឧបករណ៍អេឡិចត្រូនិច​</button>
+                      <button className='py-1 px-4 bg-secondary text-lg max-lg:text-lg border-4 border-white font-koulen text-white absolute left-4 bottom-0 '>យានយន្ត​</button>
                     </div>
                     <div className='flex font-koulen text-xl  p-2 pb-0'>
                       <div>នាពេលអនាគត Apple Watch អាចបំពាក់ដោយកាមេរ៉ា ដើម្បីក្លាយជានាឡិកាឆ្លាតវៃដើរដោយ AI </div>
@@ -104,7 +105,7 @@ const Vehicle = () => {
                   <div className='shadow-sm h-[570px] overflow-hidden rounded-xl hover:scale-[1.02] duration-200 cursor-pointer'>
                     <div className='w-full h-[380px] relative'>
                       <img src={img3} alt="" className='w-full h-[360px] object-cover' />
-                      <button className='py-1 px-4 bg-secondary text-lg max-lg:text-lg border-4 border-white font-koulen text-white absolute left-4 bottom-0 '>ឧបករណ៍អេឡិចត្រូនិច​</button>
+                      <button className='py-1 px-4 bg-secondary text-lg max-lg:text-lg border-4 border-white font-koulen text-white absolute left-4 bottom-0 '>យានយន្ត​</button>
                     </div>
                     <div className='flex font-koulen text-xl  p-2 pb-0'>
                       <div>នាពេលអនាគត Apple Watch អាចបំពាក់ដោយកាមេរ៉ា ដើម្បីក្លាយជានាឡិកាឆ្លាតវៃដើរដោយ AI </div>
@@ -117,7 +118,7 @@ const Vehicle = () => {
                   <div className='shadow-sm h-[570px] overflow-hidden rounded-xl hover:scale-[1.02] duration-200 cursor-pointer'>
                     <div className='w-full h-[380px] relative'>
                       <img src={img12} alt="" className='w-full h-[360px] object-cover' />
-                      <button className='py-1 px-4 bg-secondary text-lg max-lg:text-lg border-4 border-white font-koulen text-white absolute left-4 bottom-0 '>ឧបករណ៍អេឡិចត្រូនិច​</button>
+                      <button className='py-1 px-4 bg-secondary text-lg max-lg:text-lg border-4 border-white font-koulen text-white absolute left-4 bottom-0 '>យានយន្ត​</button>
                     </div>
                     <div className='flex font-koulen text-xl  p-2 pb-0'>
                       <div>នាពេលអនាគត Apple Watch អាចបំពាក់ដោយកាមេរ៉ា ដើម្បីក្លាយជានាឡិកាឆ្លាតវៃដើរដោយ AI </div>
@@ -143,7 +144,7 @@ const Vehicle = () => {
                     <img src={img2} alt="" className=' w-[110px] h-[110px] rounded-md object-cover' />
                   </div>
                   <div className='w-[70%] '>
-                    <p className='text-sm text-sky-500'>ទូរសព្ទ</p> Galaxy A26 5G ប្រកាសចេញជាផ្លូវការ ជាមួយ​ Awesome.. </div>
+                    <NavLink to="/telephones"><p className='text-sm text-sky-500'>ទូរសព្ទ</p></NavLink> Galaxy A26 5G ប្រកាសចេញជាផ្លូវការ ជាមួយ​ Awesome.. </div>
                 </div>
                 <div className='border-b-2 border-gray-200 mt-6 rounded-full'></div>
 
@@ -153,7 +154,7 @@ const Vehicle = () => {
                     <img src={img3} alt="" className=' w-[110px] h-[110px] rounded-md object-cover' />
                   </div>
                   <div className='w-[70%] '>
-                    <p className='text-sm text-sky-500'>ទូរសព្ទ</p> Galaxy A26 5G ប្រកាសចេញជាផ្លូវការ ជាមួយ​ Awesome.. </div>
+                    <NavLink to="/telephones"><p className='text-sm text-sky-500'>ទូរសព្ទ</p></NavLink> Galaxy A26 5G ប្រកាសចេញជាផ្លូវការ ជាមួយ​ Awesome.. </div>
                 </div>
                 <div className='border-b-2 border-gray-200 mt-6 rounded-full'></div>
 
@@ -162,7 +163,7 @@ const Vehicle = () => {
                     <img src={img5} alt="" className=' w-[110px] h-[110px] rounded-md object-cover' />
                   </div>
                   <div className='w-[70%] '>
-                    <p className='text-sm text-sky-500'>ទូរសព្ទ</p> Galaxy A26 5G ប្រកាសចេញជាផ្លូវការ ជាមួយ​ Awesome.. </div>
+                    <NavLink to="/general"><p className='text-sm text-sky-500'>ចំណេះដឹងទូទៅ​</p></NavLink> Galaxy A26 5G ប្រកាសចេញជាផ្លូវការ ជាមួយ​ Awesome.. </div>
                 </div>
                 <div className='border-b-2 border-gray-200 mt-6'></div>
 
@@ -171,7 +172,7 @@ const Vehicle = () => {
                     <img src={img6} alt="" className=' w-[110px] h-[110px] rounded-md object-cover' />
                   </div>
                   <div className='w-[70%] '>
-                    <p className='text-sm text-sky-500'>ទូរសព្ទ</p> Galaxy A26 5G ប្រកាសចេញជាផ្លូវការ ជាមួយ​ Awesome.. </div>
+                    <NavLink to="/general"><p className='text-sm text-sky-500'>ចំណេះដឹងទូទៅ​</p></NavLink> Galaxy A26 5G ប្រកាសចេញជាផ្លូវការ ជាមួយ​ Awesome.. </div>
                 </div>
               </div>
 
@@ -191,7 +192,7 @@ const Vehicle = () => {
                 <img src={img2} alt="" className=' w-[110px] h-[110px] rounded-md object-cover' />
               </div>
               <div className=' '>
-                <p className='text-sm text-sky-500'>ទូរសព្ទ</p> Galaxy A26 5G ប្រកាសចេញជាផ្លូវការ ជាមួយ​ Awesome.. </div>
+                <NavLink to="/telephones"><p className='text-sm text-sky-500'>ទូរសព្ទ</p></NavLink> Galaxy A26 5G ប្រកាសចេញជាផ្លូវការ ជាមួយ​ Awesome.. </div>
             </div>
             <div className='border-b-2 border-gray-200 mt-6 rounded-full'></div>
 
@@ -201,7 +202,7 @@ const Vehicle = () => {
                 <img src={img3} alt="" className=' w-[110px] h-[110px] rounded-md object-cover' />
               </div>
               <div className='w-[70%] '>
-                <p className='text-sm text-sky-500'>ទូរសព្ទ</p> រួមមានបំពាក់ដោយលេន Periscope 100x និងតម្លៃ
+                <NavLink to="/telephones"><p className='text-sm text-sky-500'>ទូរសព្ទ</p></NavLink> រួមមានបំពាក់ដោយលេន Periscope 100x និងតម្លៃ
                 ចាប់ផ្ដើមពីខ្ទង់ $370 នៅក្រៅប្រទេស </div>
             </div>
             <div className='border-b-2 border-gray-200 mt-6 rounded-full'></div>
@@ -211,7 +212,7 @@ const Vehicle = () => {
                 <img src={img5} alt="" className=' w-[110px] h-[110px] rounded-md object-cover' />
               </div>
               <div className='w-[70%] '>
-                <p className='text-sm text-sky-500'>ទូរសព្ទ</p> Galaxy A26 5G ប្រកាសចេញជាផ្លូវការ ជាមួយ​ Awesome.. </div>
+                <NavLink to="/general"><p className='text-sm text-sky-500'>ចំណេះដឹងទូទៅ​</p></NavLink> Galaxy A26 5G ប្រកាសចេញជាផ្លូវការ ជាមួយ​ Awesome.. </div>
             </div>
             <div className='border-b-2 border-gray-200 mt-6'></div>
 
@@ -220,7 +221,7 @@ const Vehicle = () => {
                 <img src={img6} alt="" className=' w-[110px] h-[110px] rounded-md object-cover' />
               </div>
               <div className='w-[70%] '>
-                <p className='text-sm text-sky-500'>ទូរសព្ទ</p> Galaxy A26 5G ប្រកាសចេញជាផ្លូវការ ជាមួយ​ Awesome.. </div>
+                <NavLink to="/general"><p className='text-sm text-sky-500'>ចំណេះដឹងទូទៅ​</p></NavLink> Galaxy A26 5G ប្រកាសចេញជាផ្លូវការ ជាមួយ​ Awesome.. </div>
             </div>
           </div>
 
