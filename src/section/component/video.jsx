@@ -21,7 +21,7 @@ const video = () => {
               <div className=''>
                 <div className='grid grid-cols-2 max-md:grid-cols-1 gap-12  pt-4 font-koulen text-xl text-black '>
                   <div className='  bg-primary   rounded-xl overflow-hidden'>
-                    <div className='w-full h-[202.5px] bg-red-600'>
+                    <div className='w-full h-[202.5px] '>
                       <img src={img2} alt="" className='w-full h-full object-cover' />
                     </div>
                     <div className='m-4' >
@@ -31,7 +31,7 @@ const video = () => {
                     </div>
                   </div>
                   <div className='  bg-primary   rounded-xl overflow-hidden'>
-                    <div className='w-full h-[202.5px] bg-red-600'>
+                    <div className='w-full h-[202.5px] '>
                       <img src={img3} alt="" className='w-full h-full object-cover' />
                     </div>
                     <div className='m-4' >
@@ -41,7 +41,7 @@ const video = () => {
                     </div>
                   </div>
                   <div className='  bg-primary   rounded-xl overflow-hidden'>
-                    <div className='w-full h-[202.5px] bg-red-600'>
+                    <div className='w-full h-[202.5px] '>
                       <img src={img4} alt="" className='w-full h-full object-cover' />
                     </div>
                     <div className='m-4' >
@@ -51,7 +51,7 @@ const video = () => {
                     </div>
                   </div>
                   <div className='  bg-primary   rounded-xl overflow-hidden'>
-                    <div className='w-full h-[202.5px] bg-red-600'>
+                    <div className='w-full h-[202.5px] '>
                       <img src={img5} alt="" className='w-full h-full object-cover' />
                     </div>
                     <div className='m-4' >
@@ -61,7 +61,7 @@ const video = () => {
                     </div>
                   </div>
                   <div className='  bg-primary   rounded-xl overflow-hidden'>
-                    <div className='w-full h-[202.5px] bg-red-600'>
+                    <div className='w-full h-[202.5px] '>
                       <img src={img6} alt="" className='w-full h-full object-cover' />
                     </div>
                     <div className='m-4' >
